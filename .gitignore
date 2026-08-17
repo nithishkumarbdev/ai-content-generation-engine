@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+#.env
+venv/
+*.egg-info/
+.pytest_cache/
+*.db
+
+backend/static/uploads/*
+backend/static/generated/*
+!backend/static/uploads/.gitkeep
+!backend/static/generated/.gitkeep
+
+.DS_Store
